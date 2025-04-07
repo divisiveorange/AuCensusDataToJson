@@ -8,7 +8,7 @@ To run the program, within the main folder run
 
 or use the included small scale data with 
 
-./build/Parsing "2021 Census GCP States and Territories for AUS" jsonFiles Metadata_2021_GCP_DataPack_R1_R2 2021Census_geog_desc_1st_2nd_3rd_release
+./build/Parsing "SmallCensusData/2021 Census GCP All Geographies for OT" jsonFiles SmallCensusData/Metadata_2021_GCP_DataPack_R1_R2 SmallCensusData/2021Census_geog_desc_1st_2nd_3rd_release
 
 Specifically what this does and why:
 
