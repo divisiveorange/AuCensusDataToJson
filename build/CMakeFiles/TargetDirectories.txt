@@ -1,0 +1,3 @@
+/Users/alexandergarrity/documents/coding/projects/AuCensusDataToJson/build/CMakeFiles/Parsing.dir
+/Users/alexandergarrity/documents/coding/projects/AuCensusDataToJson/build/CMakeFiles/edit_cache.dir
+/Users/alexandergarrity/documents/coding/projects/AuCensusDataToJson/build/CMakeFiles/rebuild_cache.dir
