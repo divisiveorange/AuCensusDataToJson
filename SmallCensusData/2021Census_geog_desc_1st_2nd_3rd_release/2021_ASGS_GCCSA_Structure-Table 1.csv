@@ -1,0 +1,45 @@
+ASGS_Structure,Census_Code_2021,AGSS_Code_2021,Census_Name_2021,Area sqkm
+AUS,AUS,AUS,AUSTRALIA,7688094.938
+STE,1,1,New South Wales,800797.6591
+STE,2,2,Victoria,227496.2479
+STE,3,3,Queensland,1730171.221
+STE,4,4,South Australia,984231.4202
+STE,5,5,Western Australia,2526632.483
+STE,6,6,Tasmania,68017.5393
+STE,7,7,Northern Territory,1348134.493
+STE,8,8,Australian Capital Territory,2358.133
+STE,9,9,Other Territories,255.742
+GCCSA,1GSYD,1GSYD,Greater Sydney,12368.6858
+GCCSA,1RNSW,1RNSW,Rest of NSW,788428.9733
+GCCSA,19499,19499,No usual address (NSW),0
+GCCSA,19799,19799,Migratory - Offshore - Shipping (NSW),0
+GCCSA,2GMEL,2GMEL,Greater Melbourne,9992.6081
+GCCSA,2RVIC,2RVIC,Rest of Vic.,217503.6398
+GCCSA,29499,29499,No usual address (Vic.),0
+GCCSA,29799,29799,Migratory - Offshore - Shipping (Vic.),0
+GCCSA,3GBRI,3GBRI,Greater Brisbane,15842.0073
+GCCSA,3RQLD,3RQLD,Rest of Qld,1714329.214
+GCCSA,39499,39499,No usual address (Qld),0
+GCCSA,39799,39799,Migratory - Offshore - Shipping (Qld),0
+GCCSA,4GADE,4GADE,Greater Adelaide,3259.8859
+GCCSA,4RSAU,4RSAU,Rest of SA,980971.5343
+GCCSA,49499,49499,No usual address (SA),0
+GCCSA,49799,49799,Migratory - Offshore - Shipping (SA),0
+GCCSA,5GPER,5GPER,Greater Perth,6416.5721
+GCCSA,5RWAU,5RWAU,Rest of WA,2520215.91
+GCCSA,59499,59499,No usual address (WA),0
+GCCSA,59799,59799,Migratory - Offshore - Shipping (WA),0
+GCCSA,6GHOB,6GHOB,Greater Hobart,1695.3611
+GCCSA,6RTAS,6RTAS,Rest of Tas.,66322.1782
+GCCSA,69499,69499,No usual address (Tas.),0
+GCCSA,69799,69799,Migratory - Offshore - Shipping (Tas.),0
+GCCSA,7GDAR,7GDAR,Greater Darwin,3167.7034
+GCCSA,7RNTE,7RNTE,Rest of NT,1344966.79
+GCCSA,79499,79499,No usual address (NT),0
+GCCSA,79799,79799,Migratory - Offshore - Shipping (NT),0
+GCCSA,8ACTE,8ACTE,Australian Capital Territory,2358.133
+GCCSA,89499,89499,No usual address (ACT),0
+GCCSA,89799,89799,Migratory - Offshore - Shipping (ACT),0
+GCCSA,9OTER,9OTER,Other Territories,255.742
+GCCSA,99499,99499,No usual address (OT),0
+GCCSA,99799,99799,Migratory - Offshore - Shipping (OT),0
