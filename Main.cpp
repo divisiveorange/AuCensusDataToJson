@@ -28,8 +28,8 @@ int main(int argc, char *argv[])
     }
     if (argc < 5)
     {
-        geographyDescriptionFolder = "../2021_GCP_all_for_AUS_short-header/Metadata/2021Census_geog_desc_1st_2nd_3rd_release";
         fieldDescriptionFile = "../2021_GCP_all_for_AUS_short-header/Metadata/Metadata_2021_GCP_DataPack_R1_R2";
+        geographyDescriptionFolder = "../2021_GCP_all_for_AUS_short-header/Metadata/2021Census_geog_desc_1st_2nd_3rd_release";
     } else
     {
         fieldDescriptionFile = argv[3];
