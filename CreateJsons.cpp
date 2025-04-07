@@ -26,7 +26,7 @@ void createJsons(std::string outputDir, const std::string& folderPath, nlohmann:
 void withinFolder(std::string outputDir, const std::string& folderPath, nlohmann::json* jason, NameConversions* localities, NameConversions* fields)
 {
     std::cout << "Reached folder " << folderPath << std::endl;
-    std::vector<std::filesystem::directory_entry> files = std::vector<std::filesystem::directory_entry>();
+    std::vector<std::filesystem::directory_entry> files;
     for (const auto& entry : std::filesystem::directory_iterator(folderPath)) {
         if (entry.path().filename().string().at(0) != '.')
         {
@@ -44,13 +44,14 @@ void withinFolder(std::string outputDir, const std::string& folderPath, nlohmann
         std::cout << "Finished with folder " << folderPath << std::endl;
         return;
     }
-    std::ifstream counterStream(files.front());
+    auto example = files.front();
+    std::ifstream counterStream(example.path());
     std::string counterLine;
     std::getline(counterStream, counterLine);
     auto streamVector = std::vector<std::unique_ptr<std::ifstream>>();
     for (const auto& file : files)
     {
-        streamVector.push_back(std::make_unique<std::ifstream>(file));
+        streamVector.push_back(std::make_unique<std::ifstream>(file.path()));
     }
     std::vector<std::string> topLine;
     for (const auto& stream : streamVector)
